@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="tugas3.css">
+        <style>
+            .profile-photo img{
+                border-radius: 100%;
+                border: 2px solid rgb(108, 11, 235);
+                width: 170px;
+                height: 200px;
+                float: left;
+            }
+            .profile-text{
+                float: left;
+                text-align: center;
+                width: 200px;
+            }
+            .button {
+                box-shadow: 0 8px 16px 0 rgba(235, 25, 25, 0.2), 0 6px 20px 0 rgba(241, 8, 8, 0.19);
+                background-color: #3e8e41
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">my inventory</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div id="profile">
+                <div class="profile-photo">
+                    <img src="mif.jpg" alt="foto profil">
+                </div>
+                <div class="profile-text">
+                    <h2>Miftakhul Anuar</h2>
+                    <h5>Front End Designer</h5>
+                    <div class="action">
+                        <button class="button">Kontak</button>
+                        <button class="button">Resume</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="detail">
+                <table cellpadding="12">
+                    <tr>
+                        <td>Availability</td>
+                        <td>Full Time</td>
+                    </tr>
+                    <tr>
+                        <td>Usia</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>Lokasi</td>
+                        <td>Jakarta, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Pengalaman</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>developer@hacktiv8.com</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <form action="return false;">
+                <div>
+                    <label for="nama">Nama</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="role">Role</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="availability">Availability</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="lokasi">Lokasi</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="experience">Year Experience</label>
+                    <br>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email">
+                </div>
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </section>
+
+    </body>
+</html>
